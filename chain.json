@@ -2039,7 +2039,7 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Repeat",
-                  "repeatExpression": "PickedInstancesCount(ChainGroup) + PickedInstancesCount(linkSide)-1",
+                  "repeatExpression": "PickedInstancesCount(AllGroup) -1",
                   "conditions": [
                     {
                       "type": {
